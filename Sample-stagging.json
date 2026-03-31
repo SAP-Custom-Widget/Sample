@@ -1,0 +1,97 @@
+{
+  "id": "com.rohitchouhan.sap.sample",
+  "version": "1.0.0",
+  "name": "Sample",
+  "description": "",
+  "newInstancePrefix": "Sample",
+  "vendor": "rohitchouhan.com",
+  "eula": "rohitchouhan.com",
+  "license": "MIT",
+  "icon": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/Sample@stagging/icon.png",
+  "imports": [
+    "datasource"
+  ],
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-rohitchouhan-sap-sample",
+      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/Sample@stagging/dist/Sample.bundle.js",
+      "integrity": "sha512-LrLhY843i0XeKdfso065HLB7ijHyDqaaFwHV72M2gzQd3uVPUolgiqjM4g5souGbY9tEG623YZJRbZRwFf4IZw==",
+      "ignoreIntegrity": false
+    },
+    {
+      "kind": "builder",
+      "tag": "com-rohitchouhan-sap-sample-builder",
+      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/Sample@stagging/dist/Sample.bundle.js",
+      "integrity": "sha512-LrLhY843i0XeKdfso065HLB7ijHyDqaaFwHV72M2gzQd3uVPUolgiqjM4g5souGbY9tEG623YZJRbZRwFf4IZw==",
+      "ignoreIntegrity": false
+    }
+  ],
+  "properties": {
+    "notificationToggle": {
+      "description": "Enable or disable notifications for new messages",
+      "type": "boolean",
+      "default": true
+    },
+    "sampleField": {
+      "description": "Sample Field",
+      "type": "string",
+      "default": "Sample Field"
+    },
+    "textColor": {
+      "description": "Text Color",
+      "type": "string",
+      "default": "#000000"
+    },
+    "textSize": {
+      "description": "Text Size",
+      "type": "integer",
+      "default": 16
+    },
+    "fontStyle": {
+      "description": "Font Weight",
+      "type": "string",
+      "default": "normal"
+    },
+    "description": {
+      "description": "Widget Description",
+      "type": "string",
+      "default": "This is a sample widget description."
+    },
+    "showInfo": {
+      "description": "Show or Hide Information",
+      "type": "boolean",
+      "default": true
+    },
+    "selectedFeatures": {
+      "description": "Selected Features",
+      "type": "string[]",
+      "default": [
+        "Feature 1"
+      ]
+    }
+  },
+  "methods": {
+    "enableUpdateNotification": {
+      "description": "Enable or disable update notifications",
+      "parameters": [
+        {
+          "name": "notificationToggle",
+          "type": "boolean",
+          "description": "Enable or disable update notifications"
+        }
+      ],
+      "body": "this.notificationToggle = notificationToggle;"
+    },
+    "isUpdateNotificationEnable": {
+      "description": "Check if update notifications are enabled",
+      "returnType": "boolean",
+      "body": "return this.notificationToggle;"
+    }
+  },
+  "events": {
+    "onClick": {
+      "description": "Event triggered when clicked."
+    }
+  }
+}
