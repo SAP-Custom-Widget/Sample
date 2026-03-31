@@ -16,14 +16,14 @@
       "kind": "main",
       "tag": "com-rohitchouhan-sap-sample",
       "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/Sample@stagging/dist/Sample.bundle.js",
-      "integrity": "sha512-LrLhY843i0XeKdfso065HLB7ijHyDqaaFwHV72M2gzQd3uVPUolgiqjM4g5souGbY9tEG623YZJRbZRwFf4IZw==",
+      "integrity": "sha512-rF7IS56ibiasMO/7/LzWkd/o8ebMLMUCHjUHBOgndC6T0+JwtHBsIgpZcBwlwjLQWfxDdVTTJWeqphtXA5QC4Q==",
       "ignoreIntegrity": false
     },
     {
       "kind": "builder",
       "tag": "com-rohitchouhan-sap-sample-builder",
       "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/Sample@stagging/dist/Sample.bundle.js",
-      "integrity": "sha512-LrLhY843i0XeKdfso065HLB7ijHyDqaaFwHV72M2gzQd3uVPUolgiqjM4g5souGbY9tEG623YZJRbZRwFf4IZw==",
+      "integrity": "sha512-rF7IS56ibiasMO/7/LzWkd/o8ebMLMUCHjUHBOgndC6T0+JwtHBsIgpZcBwlwjLQWfxDdVTTJWeqphtXA5QC4Q==",
       "ignoreIntegrity": false
     }
   ],
