@@ -1,6 +1,6 @@
 {
   "id": "com.rohitchouhan.sap.sample",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "name": "Sample",
   "description": "",
   "newInstancePrefix": "Sample",
@@ -16,14 +16,14 @@
       "kind": "main",
       "tag": "com-rohitchouhan-sap-sample",
       "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/Sample@stagging/dist/Sample.bundle.js",
-      "integrity": "sha512-rF7IS56ibiasMO/7/LzWkd/o8ebMLMUCHjUHBOgndC6T0+JwtHBsIgpZcBwlwjLQWfxDdVTTJWeqphtXA5QC4Q==",
+      "integrity": "sha512-kRzRpawWRHGwVfVs83620QHT6PR8bsydBwCgF1hfb+KZwEPIHkvPKJWdqxMMfghySqpMaDxCOF7BSE4C1Sf9jQ==",
       "ignoreIntegrity": false
     },
     {
       "kind": "builder",
       "tag": "com-rohitchouhan-sap-sample-builder",
       "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/Sample@stagging/dist/Sample.bundle.js",
-      "integrity": "sha512-rF7IS56ibiasMO/7/LzWkd/o8ebMLMUCHjUHBOgndC6T0+JwtHBsIgpZcBwlwjLQWfxDdVTTJWeqphtXA5QC4Q==",
+      "integrity": "sha512-kRzRpawWRHGwVfVs83620QHT6PR8bsydBwCgF1hfb+KZwEPIHkvPKJWdqxMMfghySqpMaDxCOF7BSE4C1Sf9jQ==",
       "ignoreIntegrity": false
     }
   ],
