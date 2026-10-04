@@ -16,14 +16,21 @@
       "kind": "main",
       "tag": "com-rohitchouhan-sap-sample",
       "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/Sample@stagging/dist/Main.bundle.js",
-      "integrity": "sha512-mUqRu2gKCq6JSVU1P+8RdPjRu0WPNeZHY/WBBH2L60NYDu3JXILfy/HRwa6zftuem4yOMjGiwOxbbKLIMJdgVQ==",
+      "integrity": "sha512-AfI0JbnDadQp246nkXHrbjaxJQiToXietqbtMIFMkldboRY5vb380AfFGicRO+ixp/He1xHx2lMFqVy4qAcJOw==",
       "ignoreIntegrity": false
     },
     {
       "kind": "builder",
       "tag": "com-rohitchouhan-sap-sample-builder",
       "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/Sample@stagging/dist/Builder.bundle.js",
-      "integrity": "sha512-r4t+W5KaBQ3YgMEAGqhaLHS9NqRXs6kJkSCrGaSDtQ/bHGTGpblXdK0+jxxZyETRMDuT2j9miC56oRGpOlYPyA==",
+      "integrity": "sha512-QzGYSgRjCcHsFEFF002fY+U+Bo3IXZV1WBev16qY9QugaHsFaXRugw7/AvAhGATBU0AI4yGT6k0jvUIyPDxVVQ==",
+      "ignoreIntegrity": false
+    },
+    {
+      "kind": "styling",
+      "tag": "com-rohitchouhan-sap-sample-styling",
+      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/Sample@stagging/dist/Styling.bundle.js",
+      "integrity": "sha512-XGBGkm52uGub8A9rQA24P06RSPzLvoxlp5m4FjUpJNGa34wFPX9t06gkxn17UAEFip9DiHoWI+fH2JtzED3HiQ==",
       "ignoreIntegrity": false
     }
   ],
